@@ -83,9 +83,6 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-git commit --allow-empty -m "Trigger rebuild"
-git push;
-
 define( 'WP_HOME','http://localhost:8080/me' );
 define( 'WP_SITEURL','http://localhost:8080/me' );
 
