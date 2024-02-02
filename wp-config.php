@@ -29,7 +29,7 @@ define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost:8080' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -83,6 +83,12 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG_LOG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
+
+define('FORCE_SSL_LOGIN',false);
+define('FORCE_SSL_ADMIN',false);
+
+define( 'WP_HOME','http://localhost:8080/wordpress' );
+define( 'WP_SITEURL','http://localhost:8080/wordpress' );
 
 /* That's all, stop editing! Happy publishing. */
 
